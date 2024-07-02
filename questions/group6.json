@@ -1,0 +1,162 @@
+[
+    {
+        "question": "Which document describes how the project will be executed, monitored, and controlled?",
+        "choice1": "Project charter",
+        "choice2": "Project management plan",
+        "choice3": "Scope statement",
+        "choice4": "Work Breakdown Structure (WBS)",
+        "answer": 2
+    },
+    {
+        "question": "What is the main purpose of the Monitor Risks process?",
+        "choice1": "To identify new risks",
+        "choice2": "To implement risk response plans",
+        "choice3": "To monitor residual risks and identify new risks",
+        "choice4": "To eliminate risks",
+        "answer": 3
+    },
+    {
+        "question": "What does a Pareto Chart help identify?",
+        "choice1": "The root cause of problems",
+        "choice2": "The sequence of steps in a process",
+        "choice3": "The most significant factors in a data set",
+        "choice4": "The relationships between different variables",
+        "answer": 3
+    },
+    {
+        "question": "Which of the following is NOT an input to the Control Quality process?",
+        "choice1": "Quality metrics",
+        "choice2": "Quality checklists",
+        "choice3": "Work performance data",
+        "choice4": "Project charter",
+        "answer": 4
+    },
+    {
+        "question": "What is a common method for representing the project's work breakdown structure graphically?",
+        "choice1": "Gantt chart",
+        "choice2": "Network diagram",
+        "choice3": "Mind map",
+        "choice4": "Tree diagram",
+        "answer": 4
+    },
+    {
+        "question": "Which process group focuses on completing the work defined in the project management plan?",
+        "choice1": "Initiating",
+        "choice2": "Planning",
+        "choice3": "Executing",
+        "choice4": "Closing",
+        "answer": 3
+    },
+    {
+        "question": "What is the primary output of the Plan Cost Management process?",
+        "choice1": "Cost estimates",
+        "choice2": "Cost baseline",
+        "choice3": "Cost management plan",
+        "choice4": "Project budget",
+        "answer": 3
+    },
+    {
+        "question": "Which of the following techniques is used to identify the cause of defects?",
+        "choice1": "Control charts",
+        "choice2": "Fishbone diagram",
+        "choice3": "Pareto chart",
+        "choice4": "Histogram",
+        "answer": 2
+    },
+    {
+        "question": "Which process involves the formal acceptance of the completed project deliverables?",
+        "choice1": "Validate Scope",
+        "choice2": "Control Scope",
+        "choice3": "Monitor and Control Project Work",
+        "choice4": "Close Project or Phase",
+        "answer": 1
+    },
+    {
+        "question": "What is the primary focus of the Plan Risk Responses process?",
+        "choice1": "Identifying risks",
+        "choice2": "Prioritizing risks",
+        "choice3": "Developing options and actions to enhance opportunities and reduce threats",
+        "choice4": "Tracking risks",
+        "answer": 3
+    },
+    {
+        "question": "Which of the following is NOT an output of the Develop Schedule process?",
+        "choice1": "Project schedule",
+        "choice2": "Schedule baseline",
+        "choice3": "Schedule data",
+        "choice4": "Project charter",
+        "answer": 4
+    },
+    {
+        "question": "What is the purpose of the Perform Qualitative Risk Analysis process?",
+        "choice1": "To numerically analyze the effect of identified risks",
+        "choice2": "To prioritize risks based on their probability and impact",
+        "choice3": "To develop risk response plans",
+        "choice4": "To monitor risk responses",
+        "answer": 2
+    },
+    {
+        "question": "Which document captures all the work that needs to be performed to deliver the project?",
+        "choice1": "Scope statement",
+        "choice2": "Project charter",
+        "choice3": "Work Breakdown Structure (WBS)",
+        "choice4": "Project management plan",
+        "answer": 3
+    },
+    {
+        "question": "Which of the following is an input to the Control Scope process?",
+        "choice1": "Project charter",
+        "choice2": "Requirements traceability matrix",
+        "choice3": "Work performance information",
+        "choice4": "Project schedule",
+        "answer": 3
+    },
+    {
+        "question": "What is a common tool used in the Control Costs process to determine whether a project is on budget?",
+        "choice1": "Earned Value Management (EVM)",
+        "choice2": "Pareto chart",
+        "choice3": "Histogram",
+        "choice4": "Critical path method",
+        "answer": 1
+    },
+    {
+        "question": "Which process involves measuring project performance to identify and correct variances?",
+        "choice1": "Direct and Manage Project Work",
+        "choice2": "Monitor and Control Project Work",
+        "choice3": "Perform Integrated Change Control",
+        "choice4": "Close Project or Phase",
+        "answer": 2
+    },
+    {
+        "question": "What is the primary goal of the Manage Communications process?",
+        "choice1": "To create a communication plan",
+        "choice2": "To ensure timely and appropriate collection, creation, distribution, storage, retrieval, management, and monitoring of project information",
+        "choice3": "To identify project stakeholders",
+        "choice4": "To resolve project conflicts",
+        "answer": 2
+    },
+    {
+        "question": "Which technique is used to estimate the duration of a project activity based on historical data from a similar activity?",
+        "choice1": "Analogous estimating",
+        "choice2": "Parametric estimating",
+        "choice3": "Bottom-up estimating",
+        "choice4": "Three-point estimating",
+        "answer": 1
+    },
+    {
+        "question": "Which document formally authorizes the existence of a project?",
+        "choice1": "Project management plan",
+        "choice2": "Project charter",
+        "choice3": "Scope statement",
+        "choice4": "Statement of work",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following processes involves aggregating the estimated costs of individual activities or work packages to establish an authorized cost baseline?",
+        "choice1": "Estimate Costs",
+        "choice2": "Determine Budget",
+        "choice3": "Control Costs",
+        "choice4": "Develop Project Management Plan",
+        "answer": 2
+    }
+]
