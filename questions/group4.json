@@ -1,0 +1,162 @@
+[
+    {
+        "question": "What is the primary purpose of the Lessons Learned Register?",
+        "choice1": "To record project risks",
+        "choice2": "To document knowledge gained during the project for use in future projects",
+        "choice3": "To track project issues",
+        "choice4": "To list project deliverables",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT a type of cost estimate?",
+        "choice1": "Rough Order of Magnitude (ROM)",
+        "choice2": "Budget estimate",
+        "choice3": "Definitive estimate",
+        "choice4": "Predictive estimate",
+        "answer": 4
+    },
+    {
+        "question": "What is the purpose of a project management information system (PMIS)?",
+        "choice1": "To provide a standardized set of tools for the project manager",
+        "choice2": "To automate the creation of the project charter",
+        "choice3": "To replace the need for a project team",
+        "choice4": "To eliminate the need for stakeholder communication",
+        "answer": 1
+    },
+    {
+        "question": "Which process involves determining the product scope and defining the criteria for product acceptance?",
+        "choice1": "Define Scope",
+        "choice2": "Collect Requirements",
+        "choice3": "Create WBS",
+        "choice4": "Validate Scope",
+        "answer": 2
+    },
+    {
+        "question": "What is the main purpose of a risk breakdown structure (RBS)?",
+        "choice1": "To categorize project risks",
+        "choice2": "To prioritize project risks",
+        "choice3": "To eliminate project risks",
+        "choice4": "To implement risk responses",
+        "answer": 1
+    },
+    {
+        "question": "Which of the following is NOT a type of organizational process asset?",
+        "choice1": "Policies and procedures",
+        "choice2": "Corporate knowledge bases",
+        "choice3": "Project charter",
+        "choice4": "Lessons learned documentation",
+        "answer": 3
+    },
+    {
+        "question": "What is the purpose of a project management office (PMO)?",
+        "choice1": "To manage all projects in an organization",
+        "choice2": "To provide project management support functions to project managers",
+        "choice3": "To replace the need for individual project managers",
+        "choice4": "To communicate directly with project stakeholders",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT a type of project report typically used in project management?",
+        "choice1": "Status reports",
+        "choice2": "Progress reports",
+        "choice3": "Forecast reports",
+        "choice4": "Regress reports",
+        "answer": 4
+    },
+    {
+        "question": "What is the primary output of the Develop Project Team process?",
+        "choice1": "Team performance assessments",
+        "choice2": "Project staff assignments",
+        "choice3": "Resource calendars",
+        "choice4": "Team charter",
+        "answer": 1
+    },
+    {
+        "question": "Which of the following is NOT a type of project cost?",
+        "choice1": "Direct costs",
+        "choice2": "Indirect costs",
+        "choice3": "Variable costs",
+        "choice4": "Perpetual costs",
+        "answer": 4
+    },
+    {
+        "question": "What is the purpose of a project kick-off meeting?",
+        "choice1": "To close the project",
+        "choice2": "To resolve project conflicts",
+        "choice3": "To formally start the project and align stakeholders",
+        "choice4": "To evaluate team performance",
+        "answer": 3
+    },
+    {
+        "question": "Which of the following is NOT a type of project procurement document?",
+        "choice1": "Request for Proposal (RFP)",
+        "choice2": "Request for Quotation (RFQ)",
+        "choice3": "Request for Information (RFI)",
+        "choice4": "Request for Execution (RFE)",
+        "answer": 4
+    },
+    {
+        "question": "What is the main purpose of the Control Quality process?",
+        "choice1": "To identify which quality standards are relevant to the project",
+        "choice2": "To monitor specific project results to determine if they comply with quality standards",
+        "choice3": "To audit the quality requirements and results",
+        "choice4": "To plan the project quality management activities",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT a type of project constraint?",
+        "choice1": "Time",
+        "choice2": "Cost",
+        "choice3": "Scope",
+        "choice4": "Motivation",
+        "answer": 4
+    },
+    {
+        "question": "What is the purpose of a project communication plan?",
+        "choice1": "To list all project stakeholders",
+        "choice2": "To define how project information will be created, stored, and distributed",
+        "choice3": "To create the project schedule",
+        "choice4": "To assign project team roles",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT a type of project closure?",
+        "choice1": "Administrative closure",
+        "choice2": "Contract closure",
+        "choice3": "Financial closure",
+        "choice4": "Technical closure",
+        "answer": 4
+    },
+    {
+        "question": "What is the main output of the Perform Quantitative Risk Analysis process?",
+        "choice1": "Risk register updates",
+        "choice2": "Probability and impact matrix",
+        "choice3": "Project documents updates",
+        "choice4": "Risk response plan",
+        "answer": 1
+    },
+    {
+        "question": "Which of the following is NOT a type of project schedule network diagram?",
+        "choice1": "Activity-on-node (AON)",
+        "choice2": "Activity-on-arrow (AOA)",
+        "choice3": "Precedence diagramming method (PDM)",
+        "choice4": "Critical path method (CPM)",
+        "answer": 4
+    },
+    {
+        "question": "What is the purpose of a change control board (CCB)?",
+        "choice1": "To implement all requested changes",
+        "choice2": "To review, evaluate, and approve or reject changes to the project",
+        "choice3": "To create change requests",
+        "choice4": "To close the project",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT a type of project life cycle?",
+        "choice1": "Predictive",
+        "choice2": "Iterative",
+        "choice3": "Incremental",
+        "choice4": "Continuous",
+        "answer": 4
+    }
+]

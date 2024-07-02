@@ -1,0 +1,162 @@
+[
+    {
+        "question": "What is the purpose of a project charter?",
+        "choice1": "To define project requirements",
+        "choice2": "To formally authorize the existence of the project",
+        "choice3": "To create the project schedule",
+        "choice4": "To list project risks",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT one of the five stages of team development according to Tuckman's model?",
+        "choice1": "Forming",
+        "choice2": "Storming",
+        "choice3": "Norming",
+        "choice4": "Finalizing",
+        "answer": 4
+    },
+    {
+        "question": "What is the purpose of a Pareto diagram in quality management?",
+        "choice1": "To identify the vital few causes that account for most problems",
+        "choice2": "To show the sequence of activities in a project",
+        "choice3": "To display the distribution of data",
+        "choice4": "To compare planned versus actual project performance",
+        "answer": 1
+    },
+    {
+        "question": "Which process involves monitoring project costs and managing changes to the cost baseline?",
+        "choice1": "Plan Cost Management",
+        "choice2": "Estimate Costs",
+        "choice3": "Determine Budget",
+        "choice4": "Control Costs",
+        "answer": 4
+    },
+    {
+        "question": "What is the purpose of a network diagram in project scheduling?",
+        "choice1": "To show project costs over time",
+        "choice2": "To display the logical relationships among schedule activities",
+        "choice3": "To list all project stakeholders",
+        "choice4": "To illustrate project risks",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT a type of project organizational structure?",
+        "choice1": "Functional",
+        "choice2": "Projectized",
+        "choice3": "Matrix",
+        "choice4": "Networked",
+        "answer": 4
+    },
+    {
+        "question": "What is the main purpose of the Create WBS process?",
+        "choice1": "To develop the project schedule",
+        "choice2": "To estimate project costs",
+        "choice3": "To subdivide project deliverables into smaller, more manageable components",
+        "choice4": "To identify project risks",
+        "answer": 3
+    },
+    {
+        "question": "Which of the following is NOT a type of project cost estimate?",
+        "choice1": "Analogous estimate",
+        "choice2": "Parametric estimate",
+        "choice3": "Bottom-up estimate",
+        "choice4": "Predictive estimate",
+        "answer": 4
+    },
+    {
+        "question": "What is the purpose of a stakeholder register?",
+        "choice1": "To list all project risks",
+        "choice2": "To document information about project stakeholders",
+        "choice3": "To record project issues",
+        "choice4": "To track project costs",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT a type of power in project management?",
+        "choice1": "Formal power",
+        "choice2": "Expert power",
+        "choice3": "Referent power",
+        "choice4": "Absolute power",
+        "answer": 4
+    },
+    {
+        "question": "What is the main output of the Develop Project Team process?",
+        "choice1": "Resource calendars",
+        "choice2": "Team performance assessments",
+        "choice3": "Project staff assignments",
+        "choice4": "Team charter",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT a type of project procurement contract?",
+        "choice1": "Fixed-price contract",
+        "choice2": "Cost-reimbursable contract",
+        "choice3": "Time and material contract",
+        "choice4": "Variable-price contract",
+        "answer": 4
+    },
+    {
+        "question": "What is the purpose of a requirements traceability matrix?",
+        "choice1": "To list all project requirements",
+        "choice2": "To link product requirements to their origin and track them throughout the project",
+        "choice3": "To prioritize project requirements",
+        "choice4": "To estimate the cost of implementing requirements",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT a type of project performance review?",
+        "choice1": "Status review",
+        "choice2": "Progress review",
+        "choice3": "Quality review",
+        "choice4": "Regression review",
+        "answer": 4
+    },
+    {
+        "question": "What is the main purpose of the Control Schedule process?",
+        "choice1": "To develop the project schedule",
+        "choice2": "To monitor the status of the project to update project progress",
+        "choice3": "To identify schedule activities",
+        "choice4": "To estimate activity durations",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT a type of organizational process asset?",
+        "choice1": "Organizational standard processes and procedures",
+        "choice2": "Corporate knowledge bases",
+        "choice3": "Financial databases",
+        "choice4": "Project charter",
+        "answer": 4
+    },
+    {
+        "question": "What is the purpose of a RACI chart in project management?",
+        "choice1": "To show the project schedule",
+        "choice2": "To illustrate project costs",
+        "choice3": "To define roles and responsibilities for project activities",
+        "choice4": "To list project risks",
+        "answer": 3
+    },
+    {
+        "question": "Which of the following is NOT a type of project schedule compression technique?",
+        "choice1": "Fast tracking",
+        "choice2": "Crashing",
+        "choice3": "Resource leveling",
+        "choice4": "Time boxing",
+        "answer": 3
+    },
+    {
+        "question": "What is the main purpose of the Perform Qualitative Risk Analysis process?",
+        "choice1": "To numerically analyze the effect of identified risks on project objectives",
+        "choice2": "To prioritize risks for further analysis or action",
+        "choice3": "To identify which risks may affect the project",
+        "choice4": "To develop options and actions to enhance opportunities and reduce threats",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT one of the main types of organizational structures?",
+        "choice1": "Functional",
+        "choice2": "Matrix",
+        "choice3": "Projectized",
+        "choice4": "Centralized",
+        "answer": 4
+    }
+]

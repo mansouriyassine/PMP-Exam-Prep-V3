@@ -1,0 +1,162 @@
+[
+    {
+        "question": "What is the primary purpose of the Develop Project Management Plan process?",
+        "choice1": "To authorize the project",
+        "choice2": "To define, prepare, and coordinate all subsidiary plans",
+        "choice3": "To identify project stakeholders",
+        "choice4": "To create the project schedule",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT one of the three points estimated in PERT analysis?",
+        "choice1": "Most likely",
+        "choice2": "Optimistic",
+        "choice3": "Pessimistic",
+        "choice4": "Expected",
+        "answer": 4
+    },
+    {
+        "question": "What is the main difference between risks and issues?",
+        "choice1": "Risks are always negative, issues can be positive",
+        "choice2": "Risks are future events, issues are current events",
+        "choice3": "Risks are managed by the project manager, issues by the team",
+        "choice4": "Risks require a response plan, issues do not",
+        "answer": 2
+    },
+    {
+        "question": "Which process involves determining, documenting, and managing stakeholder needs and expectations?",
+        "choice1": "Identify Stakeholders",
+        "choice2": "Plan Stakeholder Engagement",
+        "choice3": "Manage Stakeholder Engagement",
+        "choice4": "Monitor Stakeholder Engagement",
+        "answer": 2
+    },
+    {
+        "question": "What does the Critical Path Method (CPM) determine?",
+        "choice1": "The most expensive path through the project",
+        "choice2": "The shortest possible project duration",
+        "choice3": "The path with the most activities",
+        "choice4": "The path with the least risk",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT a type of power in project management?",
+        "choice1": "Legitimate power",
+        "choice2": "Expert power",
+        "choice3": "Referent power",
+        "choice4": "Absolute power",
+        "answer": 4
+    },
+    {
+        "question": "What is the purpose of a Monte Carlo analysis in project management?",
+        "choice1": "To determine the critical path",
+        "choice2": "To simulate project outcomes based on identified risks",
+        "choice3": "To allocate resources",
+        "choice4": "To estimate activity durations",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT part of the triple constraint?",
+        "choice1": "Scope",
+        "choice2": "Time",
+        "choice3": "Cost",
+        "choice4": "Quality",
+        "answer": 4
+    },
+    {
+        "question": "What is the main output of the Define Activities process?",
+        "choice1": "Project schedule",
+        "choice2": "Work Breakdown Structure",
+        "choice3": "Activity list",
+        "choice4": "Resource calendar",
+        "answer": 3
+    },
+    {
+        "question": "Which conflict resolution technique involves finding a solution that partially satisfies all parties?",
+        "choice1": "Smoothing",
+        "choice2": "Forcing",
+        "choice3": "Compromising",
+        "choice4": "Withdrawing",
+        "answer": 3
+    },
+    {
+        "question": "What is the purpose of a requirements traceability matrix?",
+        "choice1": "To list all project requirements",
+        "choice2": "To link product requirements to their origin and track them throughout the project lifecycle",
+        "choice3": "To prioritize project requirements",
+        "choice4": "To estimate the cost of implementing requirements",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT a tool or technique for the Estimate Costs process?",
+        "choice1": "Analogous estimating",
+        "choice2": "Three-point estimating",
+        "choice3": "Critical path analysis",
+        "choice4": "Bottom-up estimating",
+        "answer": 3
+    },
+    {
+        "question": "What is the main purpose of a project charter?",
+        "choice1": "To define project requirements",
+        "choice2": "To formally authorize the project",
+        "choice3": "To create the project schedule",
+        "choice4": "To assign project team members",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is a characteristic of a project?",
+        "choice1": "Ongoing operations",
+        "choice2": "Repetitive processes",
+        "choice3": "Temporary endeavor",
+        "choice4": "Indefinite timeline",
+        "answer": 3
+    },
+    {
+        "question": "What does SMART stand for in the context of project objectives?",
+        "choice1": "Simple, Measurable, Achievable, Relevant, Time-bound",
+        "choice2": "Specific, Manageable, Attainable, Realistic, Trackable",
+        "choice3": "Strategic, Motivating, Actionable, Results-oriented, Timely",
+        "choice4": "Scope, Milestones, Assumptions, Risks, Tasks",
+        "answer": 1
+    },
+    {
+        "question": "Which process involves reviewing all change requests, approving changes, and managing changes to deliverables?",
+        "choice1": "Direct and Manage Project Work",
+        "choice2": "Monitor and Control Project Work",
+        "choice3": "Perform Integrated Change Control",
+        "choice4": "Validate Scope",
+        "answer": 3
+    },
+    {
+        "question": "What is the purpose of a responsibility assignment matrix (RAM)?",
+        "choice1": "To list all project activities",
+        "choice2": "To define project roles and responsibilities",
+        "choice3": "To create the project schedule",
+        "choice4": "To estimate project costs",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT a type of organizational structure?",
+        "choice1": "Functional",
+        "choice2": "Matrix",
+        "choice3": "Projectized",
+        "choice4": "Hierarchical",
+        "answer": 4
+    },
+    {
+        "question": "What is the main benefit of using a Work Breakdown Structure (WBS)?",
+        "choice1": "It provides a detailed project schedule",
+        "choice2": "It defines the project budget",
+        "choice3": "It organizes and defines the total scope of the project",
+        "choice4": "It identifies all project risks",
+        "answer": 3
+    },
+    {
+        "question": "Which of the following is NOT a type of project life cycle?",
+        "choice1": "Predictive",
+        "choice2": "Iterative",
+        "choice3": "Incremental",
+        "choice4": "Linear",
+        "answer": 4
+    }
+]

@@ -1,0 +1,162 @@
+[
+    {
+        "question": "What is the purpose of the Project Management Plan?",
+        "choice1": "To authorize the project",
+        "choice2": "To define how the project is executed, monitored, and controlled",
+        "choice3": "To identify project stakeholders",
+        "choice4": "To close the project",
+        "answer": 2
+    },
+    {
+        "question": "Which process is part of the Initiating Process Group?",
+        "choice1": "Develop Project Charter",
+        "choice2": "Create WBS",
+        "choice3": "Develop Schedule",
+        "choice4": "Conduct Procurements",
+        "answer": 1
+    },
+    {
+        "question": "What is the main output of the Create WBS process?",
+        "choice1": "Activity List",
+        "choice2": "Project Schedule",
+        "choice3": "Scope Baseline",
+        "choice4": "Risk Register",
+        "answer": 3
+    },
+    {
+        "question": "Which communication channel formula is used to determine the number of communication channels?",
+        "choice1": "n(n-1)/2",
+        "choice2": "n(n+1)/2",
+        "choice3": "n(n-1)",
+        "choice4": "n(n+1)",
+        "answer": 1
+    },
+    {
+        "question": "What does RACI stand for in a responsibility assignment matrix?",
+        "choice1": "Responsible, Accountable, Consulted, Informed",
+        "choice2": "Reliable, Accurate, Complete, Informative",
+        "choice3": "Risk, Action, Control, Issue",
+        "choice4": "Review, Approve, Communicate, Implement",
+        "answer": 1
+    },
+    {
+        "question": "Which of the following is NOT a type of organizational structure?",
+        "choice1": "Functional",
+        "choice2": "Projectized",
+        "choice3": "Matrix",
+        "choice4": "Centralized",
+        "answer": 4
+    },
+    {
+        "question": "What is the main purpose of the Control Quality process?",
+        "choice1": "To identify which quality standards are relevant to the project",
+        "choice2": "To monitor specific project results to determine if they comply with quality standards",
+        "choice3": "To audit the quality requirements and results to ensure appropriate quality standards are used",
+        "choice4": "To plan the project quality management activities",
+        "answer": 2
+    },
+    {
+        "question": "What is the correct order of the risk management processes?",
+        "choice1": "Identify, Analyze, Plan Responses, Implement Responses, Monitor",
+        "choice2": "Plan, Identify, Analyze, Plan Responses, Implement Responses, Monitor",
+        "choice3": "Analyze, Identify, Plan Responses, Implement Responses, Monitor",
+        "choice4": "Identify, Plan Responses, Analyze, Implement Responses, Monitor",
+        "answer": 2
+    },
+    {
+        "question": "Which estimation technique uses the weighted average of optimistic, most likely, and pessimistic estimates?",
+        "choice1": "Analogous estimating",
+        "choice2": "Parametric estimating",
+        "choice3": "Three-point estimating",
+        "choice4": "Bottom-up estimating",
+        "answer": 3
+    },
+    {
+        "question": "What is the main purpose of a change control board (CCB)?",
+        "choice1": "To implement changes",
+        "choice2": "To review, evaluate, approve, delay, or reject changes",
+        "choice3": "To identify potential changes",
+        "choice4": "To close the project",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT typically included in a project charter?",
+        "choice1": "Project purpose",
+        "choice2": "High-level project description",
+        "choice3": "Detailed project schedule",
+        "choice4": "Project manager's authority level",
+        "answer": 3
+    },
+    {
+        "question": "What is the purpose of a fishbone diagram?",
+        "choice1": "To schedule project activities",
+        "choice2": "To identify the root causes of a problem",
+        "choice3": "To analyze project costs",
+        "choice4": "To manage project risks",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is a tool and technique for the Collect Requirements process?",
+        "choice1": "Work Breakdown Structure",
+        "choice2": "Gantt Chart",
+        "choice3": "Focus Groups",
+        "choice4": "Monte Carlo Analysis",
+        "answer": 3
+    },
+    {
+        "question": "What does the term 'progressive elaboration' mean in project management?",
+        "choice1": "Gradually increasing the project team size",
+        "choice2": "Iteratively improving and detailing the project plan as more information becomes available",
+        "choice3": "Progressively decreasing project risks",
+        "choice4": "Gradually increasing the project budget",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT a type of conflict resolution technique?",
+        "choice1": "Smoothing",
+        "choice2": "Compromising",
+        "choice3": "Forcing",
+        "choice4": "Escalating",
+        "answer": 4
+    },
+    {
+        "question": "What is the purpose of a project kickoff meeting?",
+        "choice1": "To close the project",
+        "choice2": "To evaluate team performance",
+        "choice3": "To formally start the project and align stakeholders",
+        "choice4": "To resolve project conflicts",
+        "answer": 3
+    },
+    {
+        "question": "Which of the following is a characteristic of Agile project management?",
+        "choice1": "Detailed upfront planning",
+        "choice2": "Minimal customer involvement",
+        "choice3": "Iterative and incremental delivery",
+        "choice4": "Resistance to change",
+        "answer": 3
+    },
+    {
+        "question": "What is the purpose of a lessons learned register?",
+        "choice1": "To record project issues",
+        "choice2": "To document knowledge gained during the project for use in future projects",
+        "choice3": "To track project risks",
+        "choice4": "To list project deliverables",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT a type of project life cycle?",
+        "choice1": "Predictive",
+        "choice2": "Iterative",
+        "choice3": "Incremental",
+        "choice4": "Regressive",
+        "answer": 4
+    },
+    {
+        "question": "What is the main purpose of the Perform Integrated Change Control process?",
+        "choice1": "To implement all requested changes",
+        "choice2": "To review all change requests, approve changes, and manage changes to deliverables",
+        "choice3": "To prevent any changes from occurring",
+        "choice4": "To delegate all change decisions to the project sponsor",
+        "answer": 2
+    }
+]

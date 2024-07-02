@@ -1,0 +1,162 @@
+[
+    {
+        "question": "Which process is part of the planning process group?",
+        "choice1": "Direct and manage project work",
+        "choice2": "Create work breakdown structure (WBS)",
+        "choice3": "Close project or phase",
+        "choice4": "Perform quality assurance",
+        "answer": 2
+    },
+    {
+        "question": "Which technique is used to determine project duration considering limited resources?",
+        "choice1": "Critical Path Method (CPM)",
+        "choice2": "Program Evaluation and Review Technique (PERT)",
+        "choice3": "Resource leveling",
+        "choice4": "Earned Value Analysis (EVA)",
+        "answer": 3
+    },
+    {
+        "question": "Which document defines how the project will be executed, monitored, and controlled?",
+        "choice1": "Project charter",
+        "choice2": "Project management plan",
+        "choice3": "Project scope statement",
+        "choice4": "Stakeholder register",
+        "answer": 2
+    },
+    {
+        "question": "What is the main difference between risks and issues?",
+        "choice1": "Risks are always negative, issues can be positive",
+        "choice2": "Risks are future uncertain events, issues are current events",
+        "choice3": "Risks are managed by the project team, issues by stakeholders",
+        "choice4": "Risks require immediate response, issues can be managed later",
+        "answer": 2
+    },
+    {
+        "question": "Which tool is used to visually represent the sequence of project activities?",
+        "choice1": "Pareto diagram",
+        "choice2": "Gantt chart",
+        "choice3": "Control chart",
+        "choice4": "Pie chart",
+        "answer": 2
+    },
+    {
+        "question": "Which formula is used to calculate the Cost Performance Index (CPI)?",
+        "choice1": "EV / AC",
+        "choice2": "EV / PV",
+        "choice3": "AC / EV",
+        "choice4": "PV / EV",
+        "answer": 1
+    },
+    {
+        "question": "Which process involves determining, documenting, and managing stakeholder needs and expectations?",
+        "choice1": "Identify stakeholders",
+        "choice2": "Plan stakeholder engagement",
+        "choice3": "Manage stakeholder engagement",
+        "choice4": "Control stakeholder engagement",
+        "answer": 2
+    },
+    {
+        "question": "Which group decision-making technique encourages creativity and generates many ideas in a short time?",
+        "choice1": "Delphi technique",
+        "choice2": "Multi-criteria decision analysis",
+        "choice3": "Brainstorming",
+        "choice4": "Weighted voting",
+        "answer": 3
+    },
+    {
+        "question": "Which type of organizational structure gives the project manager the most authority?",
+        "choice1": "Functional",
+        "choice2": "Weak matrix",
+        "choice3": "Balanced matrix",
+        "choice4": "Projectized",
+        "answer": 4
+    },
+    {
+        "question": "What is the first step in the risk management process?",
+        "choice1": "Identify risks",
+        "choice2": "Perform qualitative risk analysis",
+        "choice3": "Plan risk management",
+        "choice4": "Perform quantitative risk analysis",
+        "answer": 3
+    },
+    {
+        "question": "Which document contains lessons learned and historical information from the project?",
+        "choice1": "Project management plan",
+        "choice2": "Final project report",
+        "choice3": "Risk register",
+        "choice4": "Project charter",
+        "answer": 2
+    },
+    {
+        "question": "Which technique is used to reach a consensus among experts without bringing them together physically?",
+        "choice1": "Brainstorming",
+        "choice2": "Nominal group technique",
+        "choice3": "Delphi technique",
+        "choice4": "Force field analysis",
+        "answer": 3
+    },
+    {
+        "question": "What is the main advantage of using a fixed-price contract?",
+        "choice1": "Maximum flexibility for the client",
+        "choice2": "Minimal risk for the seller",
+        "choice3": "Minimal risk for the buyer",
+        "choice4": "Best quality of the final product",
+        "answer": 3
+    },
+    {
+        "question": "What is the formula for calculating Cost Variance (CV)?",
+        "choice1": "EV - AC",
+        "choice2": "EV - PV",
+        "choice3": "AC - PV",
+        "choice4": "PV - EV",
+        "answer": 1
+    },
+    {
+        "question": "Which process involves verifying that project objectives have been met?",
+        "choice1": "Monitor and control project work",
+        "choice2": "Perform integrated change control",
+        "choice3": "Close project or phase",
+        "choice4": "Validate scope",
+        "answer": 4
+    },
+    {
+        "question": "Which motivation theory suggests that employees are motivated by satisfying hierarchical needs?",
+        "choice1": "McGregor's Theory X and Y",
+        "choice2": "Herzberg's Two-Factor Theory",
+        "choice3": "Maslow's Hierarchy of Needs",
+        "choice4": "Vroom's Expectancy Theory",
+        "answer": 3
+    },
+    {
+        "question": "Which document specifies the product acceptance criteria?",
+        "choice1": "Project scope statement",
+        "choice2": "Work Breakdown Structure (WBS)",
+        "choice3": "Quality management plan",
+        "choice4": "Product specifications",
+        "answer": 4
+    },
+    {
+        "question": "Which schedule compression technique can increase risks and costs?",
+        "choice1": "Fast tracking",
+        "choice2": "Crashing",
+        "choice3": "Resource leveling",
+        "choice4": "Resource smoothing",
+        "answer": 2
+    },
+    {
+        "question": "Which type of power is based on a person's position or title in the organization?",
+        "choice1": "Expert power",
+        "choice2": "Referent power",
+        "choice3": "Legitimate power",
+        "choice4": "Reward power",
+        "answer": 3
+    },
+    {
+        "question": "Which document formally authorizes the existence of the project?",
+        "choice1": "Project management plan",
+        "choice2": "Project scope statement",
+        "choice3": "Project charter",
+        "choice4": "Contract",
+        "answer": 3
+    }
+]
