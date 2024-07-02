@@ -48,8 +48,9 @@ function showQuestion(question) {
         button.className = 'w-full text-left px-4 py-2 border rounded mb-2 hover:bg-gray-100';
         button.textContent = choice;
         button.onclick = () => selectAnswer(index);
+        // Highlight the button if it was previously selected
         if (userAnswers[currentQuestionIndex] === index + 1) {
-            button.classList.add('bg-green-300');
+            button.classList.add('selected-choice');
         }
         choicesContainer.appendChild(button);
     });
@@ -58,14 +59,17 @@ function showQuestion(question) {
 }
 
 function selectAnswer(selectedIndex) {
+    // Remove highlight from all buttons
     const choicesContainer = document.getElementById('choices');
     const choiceButtons = choicesContainer.getElementsByTagName('button');
     Array.from(choiceButtons).forEach(button => {
-        button.classList.remove('bg-green-300');
+        button.classList.remove('selected-choice');
     });
 
-    choiceButtons[selectedIndex].classList.add('bg-green-300');
+    // Set grey background to the clicked button
+    choiceButtons[selectedIndex].classList.add('selected-choice');
 
+    // Store the selected answer
     userAnswers[currentQuestionIndex] = selectedIndex + 1;
     updateNavigationButtons();
 }
