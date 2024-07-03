@@ -1,3 +1,10 @@
+// Global variables (not used in the current implementation, but kept for potential future use)
+let questions = [];
+let currentQuestionIndex = 0;
+let userAnswers = [];
+let timeLeft = 600; // 10 minutes in seconds
+let timerInterval;
+
 function getUrlParameter(name) {
     name = name.replace(/[[]/, '\\[').replace(/[\]]/, '\\]');
     let regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
@@ -9,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const score = parseInt(getUrlParameter('score'));
     const total = parseInt(getUrlParameter('total'));
     const timeTaken = parseInt(getUrlParameter('time'));
-    const userAnswers = JSON.parse(getUrlParameter('answers'));
+    userAnswers = JSON.parse(getUrlParameter('answers'));
 
     displaySummary(score, total, timeTaken);
     displayQuestionReview(userAnswers);
@@ -35,7 +42,8 @@ function displayQuestionReview(userAnswers) {
 
     fetch(`questions/group${getUrlParameter('group')}.json`)
         .then(response => response.json())
-        .then(questions => {
+        .then(fetchedQuestions => {
+            questions = fetchedQuestions; // Storing fetched questions in the global variable
             questions.forEach((question, index) => {
                 const userAnswer = userAnswers[index];
                 const isCorrect = userAnswer === question.answer;
@@ -64,3 +72,7 @@ function retakeQuiz() {
 function chooseAnotherGroup() {
     window.location.href = 'index.html';
 }
+
+// Make sure these functions are accessible globally
+window.retakeQuiz = retakeQuiz;
+window.chooseAnotherGroup = chooseAnotherGroup;
