@@ -1,72 +1,64 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const score = getUrlParameter('score');
-    const total = getUrlParameter('total');
-    const time = getUrlParameter('time');
-    const answers = JSON.parse(getUrlParameter('answers'));
-    const group = getUrlParameter('group');
+    const urlParams = new URLSearchParams(window.location.search);
+    const score = urlParams.get('score');
+    const total = urlParams.get('total');
+    const time = urlParams.get('time');
+    const userAnswers = JSON.parse(urlParams.get('answers'));
+    const selectedGroup = urlParams.get('group');
 
-    document.getElementById('results-summary').innerHTML = `
-        <p>Your score: ${score} out of ${total}</p>
-        <p>Time taken: ${Math.floor(time / 60)} minutes ${time % 60} seconds</p>
-    `;
-
-    fetchQuestions(group).then(() => {
-        displayQuestionReview(answers);
-    });
-
-    document.getElementById('retake-btn').addEventListener('click', retakeQuiz);
-    document.getElementById('choose-group-btn').addEventListener('click', chooseAnotherGroup);
+    if (score !== null && total !== null && time !== null && userAnswers !== null && selectedGroup !== null) {
+        fetchQuestions(selectedGroup)
+            .then(() => {
+                displayResults(score, total, time, userAnswers);
+            })
+            .catch(error => {
+                console.error('Error fetching questions:', error);
+                document.getElementById('results-summary').innerHTML = `<p>Error loading questions: ${error.message}. Please try again.</p>`;
+            });
+    } else {
+        document.getElementById('results-summary').innerHTML = `<p>Error: Missing query parameters. Please complete a quiz and try again.</p>`;
+    }
 });
 
 function fetchQuestions(group) {
     return fetch(`questions/group${group}.json`)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return response.json();
-        })
+        .then(response => response.json())
         .then(data => {
-            if (!Array.isArray(data) || data.length === 0) {
-                throw new Error('Invalid or empty question data');
-            }
-            questions = data;
-        })
-        .catch(error => {
-            console.error('Error fetching questions:', error);
-            document.getElementById('results-summary').innerHTML = `<p>Error loading questions: ${error.message}. Please try again.</p>`;
+            window.questions = data;
         });
 }
 
-function displayQuestionReview(userAnswers) {
-    const reviewContainer = document.getElementById('question-review');
-    questions.forEach((question, index) => {
-        const isCorrect = userAnswers[index] === question.answer;
-        const answerText = isCorrect ? 'Correct' : `Incorrect (Correct answer: ${question[`choice${question.answer}`]})`;
+function displayResults(score, total, time, userAnswers) {
+    const resultsSummary = document.getElementById('results-summary');
+    resultsSummary.innerHTML = `
+        <p>Your Score: ${score} / ${total}</p>
+        <p>Time Taken: ${Math.floor(time / 60)} minutes ${time % 60} seconds</p>
+    `;
 
-        const questionElement = document.createElement('div');
-        questionElement.className = 'mb-4';
-        questionElement.innerHTML = `
-            <h3 class="font-bold">${question.question}</h3>
-            <p>Your answer: ${question[`choice${userAnswers[index]}`]} - <span class="${isCorrect ? 'text-green-600' : 'text-red-600'}">${answerText}</span></p>
+    const questionReview = document.getElementById('question-review');
+    questionReview.innerHTML = window.questions.map((question, index) => {
+        const userAnswer = userAnswers[index];
+        const correctAnswer = question.answer;
+        const isCorrect = userAnswer === correctAnswer;
+        return `
+            <div class="mb-4">
+                <h3 class="text-lg font-semibold">${question.question}</h3>
+                <p>Your Answer: ${question['choice' + userAnswer]} (${isCorrect ? 'Correct' : 'Incorrect'})</p>
+                ${!isCorrect ? `<p>Correct Answer: ${question['choice' + correctAnswer]}</p>` : ''}
+            </div>
         `;
-
-        reviewContainer.appendChild(questionElement);
-    });
-}
-
-function getUrlParameter(name) {
-    name = name.replace(/[[]/, '\\[').replace(/[\]]/, '\\]');
-    const regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-    const results = regex.exec(location.search);
-    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+    }).join('');
 }
 
 function retakeQuiz() {
-    const group = getUrlParameter('group');
-    window.location.href = `quiz.html?group=${group}`;
+    window.location.href = 'quiz.html?group=' + getUrlParameter('group');
 }
 
 function chooseAnotherGroup() {
     window.location.href = 'index.html';
+}
+
+function getUrlParameter(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
 }
