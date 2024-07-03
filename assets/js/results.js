@@ -1,9 +1,5 @@
-// Global variables (not used in the current implementation, but kept for potential future use)
 let questions = [];
-let currentQuestionIndex = 0;
 let userAnswers = [];
-let timeLeft = 600; // 10 minutes in seconds
-let timerInterval;
 
 function getUrlParameter(name) {
     name = name.replace(/[[]/, '\\[').replace(/[\]]/, '\\]');
@@ -12,15 +8,36 @@ function getUrlParameter(name) {
     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+function fetchQuestions(group) {
+    return fetch(`questions/group${group}.json`)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (!Array.isArray(data) || data.length === 0) {
+                throw new Error('Invalid or empty question data');
+            }
+            questions = data;
+            displayResults();
+        })
+        .catch(error => {
+            console.error('Error fetching questions:', error);
+            document.getElementById('results-container').innerHTML = `<p>Error loading questions: ${error.message}. Please try again.</p>`;
+        });
+}
+
+function displayResults() {
     const score = parseInt(getUrlParameter('score'));
-    const total = parseInt(getUrlParameter('total'));
+    const total = questions.length;
     const timeTaken = parseInt(getUrlParameter('time'));
     userAnswers = JSON.parse(getUrlParameter('answers'));
 
     displaySummary(score, total, timeTaken);
-    displayQuestionReview(userAnswers);
-});
+    displayQuestionReview();
+}
 
 function displaySummary(score, total, timeTaken) {
     const summaryElement = document.getElementById('results-summary');
@@ -36,33 +53,24 @@ function displaySummary(score, total, timeTaken) {
     `;
 }
 
-function displayQuestionReview(userAnswers) {
+function displayQuestionReview() {
     const reviewElement = document.getElementById('question-review');
     reviewElement.innerHTML = '<h2 class="text-2xl font-bold mb-4">Question Review</h2>';
 
-    fetch(`questions/group${getUrlParameter('group')}.json`)
-        .then(response => response.json())
-        .then(fetchedQuestions => {
-            questions = fetchedQuestions; // Storing fetched questions in the global variable
-            questions.forEach((question, index) => {
-                const userAnswer = userAnswers[index];
-                const isCorrect = userAnswer === question.answer;
-                
-                const questionDiv = document.createElement('div');
-                questionDiv.className = 'mb-4 p-4 border rounded';
-                questionDiv.innerHTML = `
-                    <p class="font-bold">${index + 1}. ${question.question}</p>
-                    <p>Your answer: ${question[`choice${userAnswer}`]}</p>
-                    <p>Correct answer: ${question[`choice${question.answer}`]}</p>
-                    <p class="${isCorrect ? 'text-green-600' : 'text-red-600'}">${isCorrect ? 'Correct' : 'Incorrect'}</p>
-                `;
-                reviewElement.appendChild(questionDiv);
-            });
-        })
-        .catch(error => {
-            console.error('Error fetching questions:', error);
-            reviewElement.innerHTML += '<p>Error loading question review. Please try again.</p>';
-        });
+    questions.forEach((question, index) => {
+        const userAnswer = userAnswers[index];
+        const isCorrect = userAnswer === question.answer;
+        
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'mb-4 p-4 border rounded';
+        questionDiv.innerHTML = `
+            <p class="font-bold">${index + 1}. ${question.question}</p>
+            <p>Your answer: ${question[`choice${userAnswer}`]}</p>
+            <p>Correct answer: ${question[`choice${question.answer}`]}</p>
+            <p class="${isCorrect ? 'text-green-600' : 'text-red-600'}">${isCorrect ? 'Correct' : 'Incorrect'}</p>
+        `;
+        reviewElement.appendChild(questionDiv);
+    });
 }
 
 function retakeQuiz() {
@@ -72,6 +80,15 @@ function retakeQuiz() {
 function chooseAnotherGroup() {
     window.location.href = 'index.html';
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    const group = getUrlParameter('group');
+    if (group) {
+        fetchQuestions(group);
+    } else {
+        document.getElementById('results-container').innerHTML = `<p>Error: No group specified. Please go back and select a question group.</p>`;
+    }
+});
 
 // Make sure these functions are accessible globally
 window.retakeQuiz = retakeQuiz;
