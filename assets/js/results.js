@@ -21,10 +21,19 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function fetchQuestions(group) {
-    return fetch(`questions/group${group}.json`)
-        .then(response => response.json())
+    return fetch(`../questions/group${group}.json`)  // Adjusted path to reflect the correct location of group JSON files
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json();
+        })
         .then(data => {
             window.questions = data;
+        })
+        .catch(error => {
+            console.error('Error fetching questions:', error);
+            throw error;
         });
 }
 
